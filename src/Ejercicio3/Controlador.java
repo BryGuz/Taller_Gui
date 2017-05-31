@@ -27,7 +27,7 @@ public class Controlador implements ActionListener{
     public void actionPerformed(ActionEvent e) {
        this.modelo.setName(this.vista.getNamef().getText());
        this.modelo.setLast(this.vista.getLastf().getText());
-       this.vista.MensajeText(vista.getLastf(),vista.getNamef());
+       this.vista.MensajeText(vista.getNamef(),vista.getLastf());
         
     }
     
